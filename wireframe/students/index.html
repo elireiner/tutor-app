@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="welcome">
+            <p>Welcome</p>
+        </section>
+        <section class="sign-up">
+            <form action="" method="post" class="form">
+                <div class="form-field">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="student_first_name" id="first-name" required>
+                </div>
+                <div class="form-field">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="student_last_name" id="last-name" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="email" name="student_email" id="email" required>
+                </div>
+                <div class="form-field">
+                    <label for="password">Password</label>
+                    <input name="password" minlength="8" name="student_password" id="password" required>
+                </div>
+                <div class="form-field">
+                    <label for="gender-select"></label>
+                    <select name="student_gender" id="gender-select">
+                        <option value="">Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <input type="submit" value="Sign up">
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
